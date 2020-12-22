@@ -1,0 +1,27 @@
+programa {
+	funcao inicio() {
+		
+		/*2. Faça um Programa que peça uma temperatura e informe na tela se
+         o valor é positivo ou negativo. */
+         
+         real temp
+         
+         escreva("Olá, me informe a temperatura que desejas saber se é positiva ou negativa(informe apenas o número): ")
+		 leia(temp)
+		 limpa()
+		 
+		 se(temp < 0){
+		     
+		    escreva(" Esta temperatura é negativa \n \n \n")
+		    
+		 }se(temp > 0){
+		     
+		    escreva(" Esta temperatura é positiva \n \n \n")
+		     
+		 }se(temp == 0){
+		     
+		     escreva(" Esta temperatura é positiva \n \n \n")
+		     
+		 }
+	}
+}
